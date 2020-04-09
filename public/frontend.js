@@ -27,6 +27,7 @@ submit.onclick = async ()=>{
     const {person, managing} = resJson.response
     if(managing && managing.length){
       managing.unshift(person)
+      console.log(managing)
       display.innerHTML = managing.reduce((acc, cv)=>{
         return acc + `
           <h3>${cv.firstName} ${cv.lastName} ${cv.org.title} ${cv.org.organization} ${cv.phoneNumber}</h3>
