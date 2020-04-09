@@ -1,0 +1,5 @@
+[
+  {"firstName": "John", "lastName": "Doe", "phoneNumber": "111-111-111","address": "1 Main Ave, City, State", "personId": "1000"},
+  {"firstName": "Tom", "lastName": "Apple", "phoneNumber": "222-222-222","address": "2 Main Ave, City, State", "personId": "1001"},
+  {"firstName": "Harry", "lastName": "Orange", "phoneNumber": "333-333-333","address": "3 Main Ave, City, State", "personId": "1002"}
+]
